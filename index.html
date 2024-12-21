@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scripture Popper</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="popup-container">
+    <header class="popup-header">
+      <h1>Scripture Popper</h1>
+      <p>Quickly fetch Bible verses.</p>
+    </header>
+    <main class="popup-main">
+      <input
+        type="text"
+        id="reference"
+        class="scripture-input"
+        placeholder="Enter reference (e.g., John 3:16)"
+      />
+      <button id="fetchVerse" class="fetch-button">Get Verse</button>
+      <div id="result" class="verse-result"></div>
+    </main>
+    <footer class="popup-footer">
+      <p>Powered by <a href="https://bible-api.com" target="_blank">Bible API</a></p>
+    </footer>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
